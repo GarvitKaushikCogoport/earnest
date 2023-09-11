@@ -1,0 +1,12 @@
+.Button {
+  padding: 2rem 4rem;
+  border-radius: 100px;
+  background-color: var(--color-primary-light);
+
+  font-size: var(--font-size-sm);
+  text-transform: uppercase;
+  color: var(--color-white);
+
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,9 @@
+.main {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  color: var(--color-white);
+}

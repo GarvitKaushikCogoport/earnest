@@ -1,0 +1,26 @@
+.Logo .imgContainer {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.imgContainer img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  font-size: var(--font-size-md);
+}
+
+.Logo h1 {
+}

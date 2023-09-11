@@ -1,4 +1,12 @@
 :root {
+  --color-primary-light: #0328ee;
+  --color-primary-dark: #010d50;
+  --color-white: #ffffff;
+  --color-black: #010725;
+
+  --font-size-sm: 1.6rem;
+  --font-size-md: 3.2rem;
+  --font-size-lg: 3.2rem;
 }
 
 * {
@@ -9,7 +17,12 @@
 
 html,
 body {
+  font-size: 62.5%;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-primary-dark);
 }
 
 a {
