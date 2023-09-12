@@ -6,7 +6,7 @@
 
   --font-size-sm: 1.6rem;
   --font-size-md: 3.2rem;
-  --font-size-lg: 3.2rem;
+  --font-size-lg: 6.4rem;
 }
 
 * {
@@ -18,11 +18,14 @@
 html,
 body {
   font-size: 62.5%;
+  font-family: Ubuntu;
+  color: var(--color-white);
   box-sizing: border-box;
 }
 
 body {
   background-color: var(--color-primary-dark);
+  overflow-x: hidden;
 }
 
 a {
