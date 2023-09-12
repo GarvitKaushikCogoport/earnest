@@ -11,6 +11,7 @@ export default function Document() {
           rel="stylesheet"
         />
         <link rel="icon" href="/earnest-logo.jpg" />
+        <title>Earnest</title>
       </Head>
       <body>
         <Main />
