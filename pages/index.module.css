@@ -119,14 +119,18 @@
   background-color: var(--color-primary-light);
 
   padding: 2rem 2rem 0 2rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .mobileContainer {
-  margin-top: 2rem;
+  margin-top: auto;
   text-align: center;
+  margin-top: auto;
 
   /* BUG */
-  height: 40rem;
+  height: 25rem;
 }
 
 .mobileContainer img {
