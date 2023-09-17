@@ -44,7 +44,7 @@ function Navbar() {
         </li>
 
         <li>
-          <Button>Start Now</Button>
+          <Button link={"/signup"}>Start Now</Button>
         </li>
       </ul>
     </nav>
